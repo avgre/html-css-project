@@ -1,0 +1,44 @@
+body {
+    margin:0;
+}
+
+.logo {
+    padding: 10px;
+    display: block;
+    height: 40px;
+  }
+
+.nav {
+    margin: 0;
+    background-color: grey;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+}
+
+li > a {
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+  }
+li > a:hover {
+    text-decoration: none;
+    border-bottom: 5px solid white;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    overflow: scroll;
+}
+
+.center-content {
+    text-align: center;
+    justify-content: center;
+}
+
