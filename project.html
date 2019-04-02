@@ -13,16 +13,27 @@
         <img src="imgs/logo.svg" class="logo" />
         </a>
         <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Advantages</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li class="dropdown"><a  href="javascript:void(0)">Products</a>
+          <li class="ham">
+            <a href="#"><img src="imgs/menu.svg" class="hambtn"/></a>
+            <div class="hamdrop">
+                <a class="hamlink" href="#">Features</a>
+                <a class="hamlink" href="#">Advantages</a>
+                <a class="hamlink" href="#">Gallery</a>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li><a class="navlink"href="#">Features</a></li>
+          <li><a class="navlink" href="#">Advantages</a></li>
+          <li><a class="navlink" href="#">Gallery</a></li>
+          <li class="dropdown">
+            <a class="navlink"  href="#">Products</a>
             <div class="dropdowncontent">
                 <a href="#">Falcon 9</a>
                 <a href="#">Model S</a>
                 <a href="#">iPhone</a>
             </div>
-            </li>
+          </li>
         </ul>
     </div>
     <div class=spacer></div>
@@ -44,26 +55,116 @@
       <div class="boxone">
         <div><img src="imgs/icon1.svg"/></div>
         <h3>Amazing Feature 1</h3>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
         <button>Get it</button>
       </div>
       <div class="boxtwo">
         <div><img src="imgs/icon2.svg"/></div>
         <h3>Amazing Feature 2</h3>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
         <button>Sell it</button>
       </div>
       <div class="boxthree">
         <div><img src="imgs/icon3.svg"/></div>
         <h3>Amazing Feature 3</h3>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
         <button>Do it</button>
       </div>
     </div>
-    <div class="grad content">
-      <h1 class= "right-content">Slick Gradient</h1>
-      <span class= "right-content">Lorem ipsum?</span>
+    <div class ="infobox">
+      <h1>Some Cool Text</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
     </div>
-    <div class="content">more stuff</div>
+    <div class="coolbox">
+        <p>This looks cool</p>
+        <span>Hover me if you like random animations</span>
+    </div>
+    <div class="grad content">
+      <h1>Slick Gradient</h1>
+      <p>Lorem ipsum?</p>
+    </div>
+    <div class="imggrid">
+        <img src="imgs/tesla.jpg" class="boxfit"/>
+        <img src="imgs/procat.jpg" class="boxfit"/> 
+        <img src="imgs/hyperloop.jpg" class="boxfit"/> 
+        <img src="imgs/sneakycat.jpg" class="boxfit"/> 
+        <img src="imgs/bfr.jpeg" class="boxfit"/> 
+        <img src="imgs/funnycat.jpg" class="boxfit"/> 
+    </div>
+    
+    <div class="centerform">
+      <form class="registration">
+          <h3>Register to our Mailing List:</h3>
+          <div class="text-field">
+              <input type="email" class="input-field"/>
+              <button class="send-button">
+                  <img src="imgs/send.svg"/>
+              </button>
+          </div>
+          <label class="checkbox-label">
+              <input type="checkbox" /> Send me Daily Cat Images
+          </label>
+      </form>
+    </div>
+    <div class ="linkgrid">
+        <div class="linklist">
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Legal Notes</a>
+          <a href="#">Copyright</a>
+        </div>
+        <div class="linklist">
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Legal Notes</a>
+          <a href="#">Copyright</a>
+        </div>
+        <div class="linklist">
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Legal Notes</a>
+          <a href="#">Copyright</a>
+        </div>
+        <div class="linklist">
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Legal Notes</a>
+          <a href="#">Copyright</a>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryitem">
+          <img src="imgs/tesla.jpg" class="galleryimage"/>
+            <span class="overlay">Our Flagship: the Model S</span>
+        </div>
+        <div class="galleryitem">
+          <img src="imgs/procat.jpg" class="galleryimage"/> 
+            <span class="overlay">Cool Cat</span>
+        </div>
+        <div class="galleryitem">
+          <img src="imgs/hyperloop.jpg" class="galleryimage"/> 
+            <span class="overlay">Introducing: The Hyperloop</span>
+        </div>
+        <div class="galleryitem">
+          <img src="imgs/sneakycat.jpg" class="galleryimage"/>
+            <span class="overlay">So Sneaky</span>
+        </div> 
+        <div class="galleryitem">
+          <img src="imgs/bfr.jpeg" class="galleryimage"/>
+            <span class="overlay">BFR: Big Falcon Rocket</s> 
+        </div>
+        <div class="galleryitem">
+          <img src="imgs/funnycat.jpg" class="galleryimage"/>
+            <span class="overlay">So Much Fun</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryitem"><img src="imgs/tesla.jpg" class="galleryimage"/></div>
+        <div class="galleryitem"><img src="imgs/procat.jpg" class="galleryimage"/></div>
+        <div class="galleryitem"><img src="imgs/hyperloop.jpg" class="galleryimage"/></div> 
+        <div class="galleryitem"><img src="imgs/sneakycat.jpg" class="galleryimage"/></div> 
+        <div class="galleryitem"><img src="imgs/bfr.jpeg" class="galleryimage"/></div> 
+        <div class="galleryitem"><img src="imgs/funnycat.jpg" class="galleryimage"/></div> 
+    </div>
   </body>
 </html>
